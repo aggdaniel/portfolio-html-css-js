@@ -357,6 +357,7 @@ article .icon {
 
 #projects {
   position: relative;
+  justify-items: center;
 }
 
 .color-container {
@@ -379,6 +380,11 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+#proyecto-container{
+  max-height: 65vh;
+  max-width: 40vh;
+ }
 
 /* CONTACT */
 
@@ -429,4 +435,31 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* STOCK TRACKER PROJECT*/
+
+#stock-ticker {
+  text-align: center;
+  margin: 20px;
+}
+
+#stock-form {
+  display: inline-block;
+}
+
+#ticker {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#btn-stock:hover{
+  background: rgb(102, 178, 178);
+
 }
