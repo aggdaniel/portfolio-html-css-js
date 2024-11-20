@@ -12,7 +12,7 @@ function toggleMenu() {
     const resultDiv = document.getElementById('result'); 
 
     try {
-        const response = await fetch(`https://stock-tracker-onp0.onrender.com/stock?ticker=${ticker}`);
+        const response = await fetch(`http://localhost:3000/stock?ticker=${ticker}`);
         const data = await response.json();
 
         if (response.ok) {
